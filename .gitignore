@@ -16,3 +16,6 @@ Desktop.ini
 
 # Misc
 *.log
+
+# ドキュメント（要件定義等）
+docs/

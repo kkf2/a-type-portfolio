@@ -12,3 +12,32 @@ body {
   color: #333333;
   line-height: 1.7;
 }
+
+/* ヘッダー */
+.site-header {
+  background-color: #f0f4ff;
+  border-bottom: 3px solid #b8c9f5;
+  text-align: center;
+  padding: 60px 20px 50px;
+}
+
+.site-header__name-ja {
+  font-size: 2.4rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #2d3a5e;
+}
+
+.site-header__name-en {
+  font-size: 0.95rem;
+  letter-spacing: 0.15em;
+  color: #7a8aac;
+  margin-top: 6px;
+}
+
+.site-header__tagline {
+  font-size: 1rem;
+  color: #5a6a90;
+  margin-top: 20px;
+  letter-spacing: 0.08em;
+}

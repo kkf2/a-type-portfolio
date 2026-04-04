@@ -63,3 +63,30 @@ body {
   color: #555555;
   margin-bottom: 12px;
 }
+
+/* できること */
+.skills__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.skill-card {
+  background-color: #f0f4ff;
+  border: 1px solid #b8c9f5;
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.skill-card__title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #2d3a5e;
+  margin-bottom: 10px;
+}
+
+.skill-card__text {
+  font-size: 0.9rem;
+  color: #555555;
+  line-height: 1.6;
+}

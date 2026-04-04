@@ -71,6 +71,10 @@ body {
 }
 
 /* セクション共通 */
+.section--tinted {
+  background-color: #f3f3fa;
+}
+
 .section-inner {
   max-width: 800px;
   margin: 0 auto;

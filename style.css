@@ -168,3 +168,74 @@ body {
   color: #555555;
   line-height: 1.6;
 }
+
+/* 学習中のこと */
+.learning__group {
+  margin-bottom: 28px;
+}
+
+.learning__group:last-child {
+  margin-bottom: 0;
+}
+
+.learning__group-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #5a6a90;
+  margin-bottom: 12px;
+  padding-left: 10px;
+  border-left: 3px solid #b8c9f5;
+}
+
+.learning__list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.learning__item {
+  background-color: #f0f4ff;
+  border: 1px solid #b8c9f5;
+  border-radius: 20px;
+  padding: 6px 16px;
+  font-size: 0.9rem;
+  color: #2d3a5e;
+}
+
+/* 連絡先 */
+.contact__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact__item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.contact__label {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #7a8aac;
+  width: 90px;
+  flex-shrink: 0;
+}
+
+.contact__value {
+  font-size: 0.95rem;
+  color: #333333;
+}
+
+.contact__link {
+  font-size: 0.95rem;
+  color: #4a6cd4;
+  text-decoration: none;
+}
+
+.contact__link:hover {
+  text-decoration: underline;
+}

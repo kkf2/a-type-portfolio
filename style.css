@@ -124,3 +124,47 @@ body {
   font-size: 0.9rem;
   color: #2d3a5e;
 }
+
+/* 制作実績 */
+.works__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.work-card {
+  border: 1px solid #b8c9f5;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.work-card__image-placeholder {
+  background-color: #dce6fb;
+  color: #7a8aac;
+  font-size: 0.85rem;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.work-card__body {
+  padding: 20px;
+}
+
+.work-card__title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #2d3a5e;
+  margin-bottom: 6px;
+}
+
+.work-card__tech {
+  font-size: 0.8rem;
+  color: #7a8aac;
+  margin-bottom: 10px;
+}
+
+.work-card__desc {
+  font-size: 0.9rem;
+  color: #555555;
+  line-height: 1.6;
+}

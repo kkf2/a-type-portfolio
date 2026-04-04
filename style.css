@@ -107,6 +107,13 @@ body {
   box-shadow: 0 12px 40px rgba(48, 50, 58, 0.05);
 }
 
+.skill-card__icon {
+  font-size: 2rem;
+  color: #445e97;
+  margin-bottom: 12px;
+  display: block;
+}
+
 .skill-card__title {
   font-size: 1rem;
   font-weight: 700;

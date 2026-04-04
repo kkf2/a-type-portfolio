@@ -205,6 +205,18 @@ body {
   line-height: 1.6;
 }
 
+.work-card__link {
+  display: inline-block;
+  margin-top: 12px;
+  font-size: 0.9rem;
+  color: #445e97;
+  text-decoration: none;
+}
+
+.work-card__link:hover {
+  text-decoration: underline;
+}
+
 /* 学習中のこと */
 .learning__group {
   margin-bottom: 28px;

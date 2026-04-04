@@ -13,6 +13,34 @@ body {
   line-height: 1.7;
 }
 
+/* ナビゲーション */
+.site-nav {
+  background-color: #ffffff;
+  border-bottom: 1px solid #dce6fb;
+}
+
+.site-nav__list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 14px 20px;
+}
+
+.site-nav__link {
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: #445e97;
+  letter-spacing: 0.05em;
+}
+
+.site-nav__link:hover {
+  color: #2d3a5e;
+  text-decoration: underline;
+}
+
 /* ヘッダー */
 .site-header {
   background-color: #f0f4ff;

@@ -41,3 +41,25 @@ body {
   margin-top: 20px;
   letter-spacing: 0.08em;
 }
+
+/* セクション共通 */
+.section-inner {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.section-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #2d3a5e;
+  margin-bottom: 24px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #b8c9f5;
+}
+
+/* 自己紹介 */
+.about__text {
+  color: #555555;
+  margin-bottom: 12px;
+}

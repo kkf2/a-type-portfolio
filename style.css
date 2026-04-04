@@ -9,7 +9,7 @@
 body {
   font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
   background-color: #ffffff;
-  color: #333333;
+  color: #30323a;
   line-height: 1.7;
 }
 
@@ -37,14 +37,13 @@ body {
 }
 
 .site-nav__link:hover {
-  color: #2d3a5e;
+  color: #30323a;
   text-decoration: underline;
 }
 
 /* ヘッダー */
 .site-header {
-  background-color: #f0f4ff;
-  border-bottom: 3px solid #b8c9f5;
+  background-color: #f3f3fa;
   text-align: center;
   padding: 90px 20px 80px;
 }
@@ -53,7 +52,7 @@ body {
   font-size: 3rem;
   font-weight: 700;
   letter-spacing: 0.1em;
-  color: #2d3a5e;
+  color: #30323a;
 }
 
 .site-header__name-en {
@@ -65,7 +64,7 @@ body {
 
 .site-header__tagline {
   font-size: 1rem;
-  color: #5a6a90;
+  color: #5c5f68;
   margin-top: 32px;
   letter-spacing: 0.08em;
 }
@@ -84,15 +83,13 @@ body {
 .section-title {
   font-size: 1.4rem;
   font-weight: 700;
-  color: #2d3a5e;
-  margin-bottom: 24px;
-  padding-bottom: 8px;
-  border-bottom: 2px solid #b8c9f5;
+  color: #30323a;
+  margin-bottom: 32px;
 }
 
 /* 自己紹介 */
 .about__text {
-  color: #555555;
+  color: #5c5f68;
   margin-bottom: 12px;
 }
 
@@ -105,21 +102,21 @@ body {
 
 .skill-card {
   background-color: #ffffff;
-  border: 1px solid #b8c9f5;
   border-radius: 12px;
   padding: 28px;
+  box-shadow: 0 12px 40px rgba(48, 50, 58, 0.05);
 }
 
 .skill-card__title {
   font-size: 1rem;
   font-weight: 700;
-  color: #2d3a5e;
+  color: #30323a;
   margin-bottom: 10px;
 }
 
 .skill-card__text {
   font-size: 0.9rem;
-  color: #555555;
+  color: #5c5f68;
   line-height: 1.6;
 }
 
@@ -135,7 +132,7 @@ body {
 .tools__group-title {
   font-size: 0.95rem;
   font-weight: 700;
-  color: #5a6a90;
+  color: #5c5f68;
   margin-bottom: 12px;
   padding-left: 10px;
   border-left: 3px solid #b8c9f5;
@@ -149,8 +146,7 @@ body {
 }
 
 .tools__item {
-  background-color: #f0f4ff;
-  border: 1px solid #b8c9f5;
+  background-color: #cbd2ff;
   border-radius: 20px;
   padding: 6px 16px;
   font-size: 0.9rem;
@@ -166,9 +162,9 @@ body {
 
 .work-card {
   background-color: #ffffff;
-  border: 1px solid #b8c9f5;
   border-radius: 12px;
   overflow: hidden;
+  box-shadow: 0 12px 40px rgba(48, 50, 58, 0.05);
 }
 
 .work-card__image-placeholder {
@@ -186,7 +182,7 @@ body {
 .work-card__title {
   font-size: 1rem;
   font-weight: 700;
-  color: #2d3a5e;
+  color: #30323a;
   margin-bottom: 6px;
 }
 
@@ -198,7 +194,7 @@ body {
 
 .work-card__desc {
   font-size: 0.9rem;
-  color: #555555;
+  color: #5c5f68;
   line-height: 1.6;
 }
 
@@ -214,7 +210,7 @@ body {
 .learning__group-title {
   font-size: 0.95rem;
   font-weight: 700;
-  color: #5a6a90;
+  color: #5c5f68;
   margin-bottom: 12px;
   padding-left: 10px;
   border-left: 3px solid #b8c9f5;
@@ -228,8 +224,7 @@ body {
 }
 
 .learning__item {
-  background-color: #f0f4ff;
-  border: 1px solid #b8c9f5;
+  background-color: #cbd2ff;
   border-radius: 20px;
   padding: 6px 16px;
   font-size: 0.9rem;
@@ -260,12 +255,12 @@ body {
 
 .contact__value {
   font-size: 0.95rem;
-  color: #333333;
+  color: #30323a;
 }
 
 .contact__link {
   font-size: 0.95rem;
-  color: #4a6cd4;
+  color: #445e97;
   text-decoration: none;
 }
 
@@ -275,8 +270,7 @@ body {
 
 /* フッター */
 .site-footer {
-  background-color: #f0f4ff;
-  border-top: 2px solid #b8c9f5;
+  background-color: #f3f3fa;
   text-align: center;
   padding: 28px 20px;
 }

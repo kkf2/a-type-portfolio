@@ -45,7 +45,66 @@ body {
 .site-header {
   background-color: #f3f3fa;
   text-align: center;
-  padding: 90px 20px 80px;
+  padding: 60px 20px 80px;
+}
+
+/* ギャラリーページ */
+.page-header {
+  background-color: #f3f3fa;
+  padding: 40px 0;
+}
+
+.page-header__title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #30323a;
+  margin-bottom: 12px;
+}
+
+.page-header__back a {
+  font-size: 0.9rem;
+  color: #445e97;
+  text-decoration: none;
+}
+
+.page-header__back a:hover {
+  text-decoration: underline;
+}
+
+.gallery__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.gallery-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 12px 40px rgba(48, 50, 58, 0.05);
+}
+
+.gallery-card__image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.gallery-card__body {
+  padding: 20px;
+}
+
+.gallery-card__title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #30323a;
+  margin-bottom: 8px;
+}
+
+.gallery-card__desc {
+  font-size: 0.9rem;
+  color: #5c5f68;
+  line-height: 1.6;
 }
 
 .site-header__name-ja {

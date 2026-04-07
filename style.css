@@ -10,7 +10,7 @@ body {
   font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
   background-color: #ffffff;
   color: #30323a;
-  line-height: 1.7;
+  line-height: 1.85;
 }
 
 /* ナビゲーション */
@@ -136,20 +136,20 @@ body {
 .section-inner {
   max-width: 800px;
   margin: 0 auto;
-  padding: 60px 20px;
+  padding: 72px 20px;
 }
 
 .section-title {
   font-size: 1.4rem;
   font-weight: 700;
   color: #30323a;
-  margin-bottom: 32px;
+  margin-bottom: 40px;
 }
 
 /* 自己紹介 */
 .about__text {
   color: #5c5f68;
-  margin-bottom: 12px;
+  margin-bottom: 22px;
 }
 
 /* できること */
@@ -162,7 +162,7 @@ body {
 .skill-card {
   background-color: #ffffff;
   border-radius: 12px;
-  padding: 28px;
+  padding: 32px;
   box-shadow: 0 12px 40px rgba(48, 50, 58, 0.05);
 }
 
@@ -177,18 +177,18 @@ body {
   font-size: 1rem;
   font-weight: 700;
   color: #30323a;
-  margin-bottom: 10px;
+  margin-bottom: 14px;
 }
 
 .skill-card__text {
   font-size: 0.9rem;
   color: #5c5f68;
-  line-height: 1.6;
+  line-height: 1.75;
 }
 
 /* 使用ツール */
 .tools__group {
-  margin-bottom: 32px;
+  margin-bottom: 40px;
 }
 
 .tools__group:last-child {
@@ -249,7 +249,7 @@ body {
 }
 
 .work-card__body {
-  padding: 28px;
+  padding: 32px;
 }
 
 .work-card__title {
@@ -268,7 +268,7 @@ body {
 .work-card__desc {
   font-size: 0.9rem;
   color: #5c5f68;
-  line-height: 1.6;
+  line-height: 1.75;
 }
 
 .work-card__link {
@@ -285,7 +285,7 @@ body {
 
 /* 学習中のこと */
 .learning__group {
-  margin-bottom: 28px;
+  margin-bottom: 36px;
 }
 
 .learning__group:last-child {

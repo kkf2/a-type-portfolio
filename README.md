@@ -2,6 +2,10 @@
 
 就労継続支援A型事業所への就職活動に向けて制作した、個人ポートフォリオサイトです。
 
+## 公開URL
+
+https://kkf2.github.io/a-type-portfolio/
+
 ## 概要
 
 - HTML / CSS のみで構築（フレームワーク不使用）
@@ -22,7 +26,12 @@
 
 ```
 a-type-portfolio/
-├── index.html   # メインページ
-├── style.css    # スタイルシート
-└── README.md    # このファイル
+├── index.html      # メインページ
+├── gallery.html    # 画像制作実績ページ
+├── style.css       # スタイルシート
+├── images/         # 画像フォルダ
+│   ├── portfolio-header.jpg
+│   ├── profile.jpg
+│   └── screenshot-portfolio.png
+└── README.md       # このファイル
 ```
